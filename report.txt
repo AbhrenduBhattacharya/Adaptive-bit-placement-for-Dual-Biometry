@@ -1,0 +1,38 @@
+============================================================
+Cover Image: House
+------------------------------------------------------------
+ Cover shape   : (256, 256, 3)
+ Secret1 shape : (37, 27)
+ Secret2 shape : (15, 67)
+ Hashes:
+   Cover   : c0f6436e3cf45879f9a39c6d90fca2a925c6313c9553554bca9269b35cf913df
+   Secret1 : 871771e8c7b3536cd6b1d957d57a06293b92dc201997cfed79baf1c9be9da98f
+   Secret2 : e54faa80274349dd217ccfe84b4b6e91c5026ba7015970280f740364017733b9
+ Metrics (Red channel):
+   PSNR : 49.25 dB
+   SSIM : 0.9773
+   BER  : 0.126413
+ Files:
+   Stego image : Output/stego_house.png
+   Histogram   : Output/histogram_comparison_house.png
+============================================================
+
+============================================================
+Cover Image: Pepper
+------------------------------------------------------------
+ Cover shape   : (512, 512, 3)
+ Secret1 shape : (75, 54)
+ Secret2 shape : (30, 135)
+ Hashes:
+   Cover   : 2760c151162e592b3e79be0093258c591766f9997819b291f40a20315a138317
+   Secret1 : 76a0c811a191ec33a30b97073b2eb5f8605fd4badeff3276b7f1042c20d89583
+   Secret2 : 5b4fd9551e10998419d3caa3d5d0a0826a2480b0ef193b6aa8d209c21faed45d
+ Metrics (Red channel):
+   PSNR : 49.38 dB
+   SSIM : 0.9782
+   BER  : 0.125228
+ Files:
+   Stego image : Output/stego_pepper.png
+   Histogram   : Output/histogram_comparison_pepper.png
+============================================================
+
